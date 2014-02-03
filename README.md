@@ -1,0 +1,1 @@
+Run `gulp --require coffee-script/register` to generate `./js/app.js`
