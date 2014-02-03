@@ -7,7 +7,7 @@ class @MuchoLOL
     window.addEventListener 'viewportchanged', @onViewportChange
     @paths = []
     @paths.push @path 'L', 0
-    @paths.push @path 'O', 1/3
+    @paths.push @path 'O', 1/3 - 0.015
     @paths.push @path 'L', 2/3
     console.log @paths
     @render()
